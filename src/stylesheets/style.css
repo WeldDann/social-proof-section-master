@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "League Spartan Regular";
+  src: url("../assets/fonts/static/LeagueSpartan-Regular.ttf");
+}
+@font-face {
+  font-family: "League Spartan Medium";
+  src: url("../assets/fonts/static/LeagueSpartan-Medium.ttf");
+}
+@font-face {
+  font-family: "League Spartan Regular";
+  src: url("../assets/fonts/static/LeagueSpartan-Bold.ttf");
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
