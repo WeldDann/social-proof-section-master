@@ -2,5 +2,13 @@
 @use '../abstracts';
 
 body {
-    min-height: 100vh;
+	min-height: 100vh;
+}
+
+.main-content {
+	min-height: 100vh;
+	padding: {
+		block: 5rem;
+		inline: 7.5vw;
+	}
 }
