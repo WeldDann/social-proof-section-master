@@ -26,9 +26,6 @@ body {
   min-height: 100vh;
   padding-block: 5rem;
   padding-inline: 7.5vw;
-}
-
-.main-content {
   background-image: url("../assets/images/bg-pattern-top-desktop.svg"), url("../assets/images/bg-pattern-bottom-desktop.svg");
   background-repeat: no-repeat;
   background-position: top left, bottom right;
@@ -36,21 +33,12 @@ body {
 
 .social-proof-section {
   display: grid;
-  /*
-  // Media query for desktop:
-  // Main text and reviews components should be side
-  // Reviews and testimonials components should be positioned the intended way
-  */
 }
 
 .social-proof-text, .social-proof-reviews {
   width: min(600px, 100%);
   text-align: center;
   justify-self: center;
-  /*
-  // Media query for desktop:
-  // Main text and reviews components' text should align to the left
-  */
 }
 
 .social-proof-testimonials {

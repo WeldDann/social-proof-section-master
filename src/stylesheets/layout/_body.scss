@@ -11,4 +11,8 @@ body {
 		block: 5rem;
 		inline: 7.5vw;
 	}
+	background-image:     url('../assets/images/bg-pattern-top-desktop.svg'),
+												url('../assets/images/bg-pattern-bottom-desktop.svg');
+	background-repeat: no-repeat;
+	background-position: top left, bottom right;
 }
