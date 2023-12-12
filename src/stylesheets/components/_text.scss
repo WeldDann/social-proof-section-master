@@ -1,0 +1,22 @@
+@use '../abstracts' as *;
+@use '../base';
+
+.social-proof-text__header, .social-proof-text__desc {
+    display: inline-block;
+}
+
+.social-proof-text__header {
+    max-width: 350px;
+    font: {
+        family: 'League Spartan Bold';
+        size: 3em;
+    }
+    color: $dark-magenta;
+}
+
+.social-proof-text__desc {
+    max-width: 400px;
+    margin-top: 1.5rem;
+    font-family: 'League Spartan Regular';
+    color: $dark-grayish-magenta;
+}
